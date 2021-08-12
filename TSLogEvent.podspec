@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/jindalpatel/ExampleXCTest"
   s.license          = 'MIT license'
   s.author           = { "Claus, Andrew" => "andrewclaus@amrock.com" }
-  s.source           = { :git => "https://github.com/jindalpatel/ExampleXCTest.git", :tag => "main" }
+  s.source           = { :git => "https://github.com/jindalpatel/ExampleXCTest.git", :branch => "main" }
 
   s.platform     = :ios, '12.0'
   s.swift_version = '5.0'
