@@ -43,7 +43,7 @@
 		20F9BD2926A72D5D00A33C1F /* TSLogEventConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */; };
 		20F9BD2D26A72D5E00A33C1F /* TSLogEventConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */; };
 		20F9BD4C26A746E100A33C1F /* Logger+Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */; };
-		682296A026C559D900D2AD60 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6822969F26C559D900D2AD60 /* SplunkMint.xcframework */; };
+		682296A026C559D900D2AD60 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6822969F26C559D900D2AD60 /* SplunkMint.xcframework */; platformFilter = ios; };
 		682296A126C559D900D2AD60 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6822969F26C559D900D2AD60 /* SplunkMint.xcframework */; };
 		682296A226C559D900D2AD60 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6822969F26C559D900D2AD60 /* SplunkMint.xcframework */; };
 		D72678201DE36729007881FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D726781E1DE36729007881FC /* Main.storyboard */; };
@@ -740,7 +740,7 @@
 				D72678341DE36729007881FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D72678351DE36729007881FC /* Build configuration list for PBXNativeTarget "TSLogEventSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -749,7 +749,7 @@
 				D72678371DE36729007881FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D79F04031DE36128002CFC9E /* Build configuration list for PBXProject "TSLogEvent" */ = {
 			isa = XCConfigurationList;
@@ -758,7 +758,7 @@
 				D79F04101DE36128002CFC9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D79F04111DE36128002CFC9E /* Build configuration list for PBXNativeTarget "TSLogEvent" */ = {
 			isa = XCConfigurationList;
@@ -767,7 +767,7 @@
 				D79F04131DE36128002CFC9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
