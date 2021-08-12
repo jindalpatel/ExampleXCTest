@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TSLogEvent"
-  s.version          = "1.0.6"
+  s.version          = "1.0.7"
   s.summary          = "Event Log framework for iOS."
   s.homepage         = "https://github.com/jindalpatel/ExampleXCTest"
   s.license          = 'MIT license'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '12.0'
   s.swift_version = '5.0'
 
-  s.static_framework = true
+  s.static_framework = false
 
   s.source_files = s.name + "/**/*.{h,m,swift}"
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   #uncomment this line to use the SplunkMint.framework found locally in the project
-  s.vendored_frameworks = "SplunkMint.xcframework"
+  s.vendored_frameworks = "SplunkMint.framework"
   s.frameworks = [
     "SystemConfiguration",
     "CoreTelephony",

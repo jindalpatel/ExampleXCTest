@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SplunkMint
 
 class SplunkMintLogEvent: NSObject, TSLogEventInterface {
     
