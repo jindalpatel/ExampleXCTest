@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TSLogEvent"
-  s.version          = "1.0.7"
+  s.version          = "1.0.8"
   s.summary          = "Event Log framework for iOS."
   s.homepage         = "https://github.com/jindalpatel/ExampleXCTest"
   s.license          = 'MIT license'
