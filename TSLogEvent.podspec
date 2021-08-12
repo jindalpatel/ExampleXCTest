@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "TSLogEvent"
-  s.version          = "1.0.8"
+  s.version          = "1.0.9"
   s.summary          = "Event Log framework for iOS."
   s.homepage         = "https://github.com/jindalpatel/ExampleXCTest"
   s.license          = 'MIT license'
   s.author           = { "Claus, Andrew" => "andrewclaus@amrock.com" }
-  s.source           = { :git => "https://github.com/jindalpatel/ExampleXCTest.git", :tag => s.version }
+  s.source           = { :git => "https://github.com/jindalpatel/ExampleXCTest.git", :tag => "main" }
 
   s.platform     = :ios, '12.0'
   s.swift_version = '5.0'
@@ -19,14 +19,14 @@ Pod::Spec.new do |s|
   #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   #uncomment this line to use the SplunkMint.framework found locally in the project
-  s.vendored_frameworks = "SplunkMint.framework"
-  s.frameworks = [
-    "SystemConfiguration",
-    "CoreTelephony",
-    "WebKit",
-    "CoreLocation"
-  ]
-  s.libraries = "z"
+  #s.vendored_frameworks = "SplunkMint.framework"
+  #s.frameworks = [
+   # "SystemConfiguration",
+    #"CoreTelephony",
+    #"WebKit",
+    #"CoreLocation"
+  #]
+  #s.libraries = "z"
 
   #uncomment this line to use SplunkMint 5.2.7 from CocoaPods
   #s.dependency 'SplunkMint', '5.2.7'

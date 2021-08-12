@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SplunkMint
+//import SplunkMint
 
 class SplunkMintLogEvent: NSObject, TSLogEventInterface {
     
@@ -16,33 +16,33 @@ class SplunkMintLogEvent: NSObject, TSLogEventInterface {
     
     /// Initialize another logging SDK.
     func initializeSDK() {
-        if let configuration = configuration {
-            Mint.sharedInstance()?.disableCrashReporter()
-            Mint.sharedInstance().initAndStartSession(withHECUrl: configuration.hecURL, token: configuration.token)
-                    
-            let allAppEnvironments = [Environment.dev: SPLAppEnvDevelopment,
-                                   Environment.test: SPLAppEnvTesting,
-                                   Environment.uat: SPLAppEnvUserAcceptanceTesting,
-                                   Environment.release: SPLAppEnvRelease]
-            
-            Mint.sharedInstance().applicationEnvironment = allAppEnvironments[configuration.appEvironment]
-                    
-#if DEBUG
-            Mint.sharedInstance()?.enableDebugLog(true)
-#endif
-        }
+//        if let configuration = configuration {
+//            Mint.sharedInstance()?.disableCrashReporter()
+//            Mint.sharedInstance().initAndStartSession(withHECUrl: configuration.hecURL, token: configuration.token)
+//
+//            let allAppEnvironments = [Environment.dev: SPLAppEnvDevelopment,
+//                                   Environment.test: SPLAppEnvTesting,
+//                                   Environment.uat: SPLAppEnvUserAcceptanceTesting,
+//                                   Environment.release: SPLAppEnvRelease]
+//
+//            Mint.sharedInstance().applicationEnvironment = allAppEnvironments[configuration.appEvironment]
+//
+//#if DEBUG
+//            Mint.sharedInstance()?.enableDebugLog(true)
+//#endif
+//        }
     }
     
     /// Set the user's username for logging.
     /// - Parameter username: An username for analytics
     func setUsername(_ username: String) {
-        Mint.sharedInstance()?.userIdentifier = username
+//        Mint.sharedInstance()?.userIdentifier = username
     }
     
     /// Log an user event. Event name should be an NSString.
     /// - Parameter eventName: An name for event
     func logEvent(_ eventName: String) {
-        Mint.sharedInstance()?.logEvent(withName: eventName, logLevel: MintLogLevel.init(10))
+//        Mint.sharedInstance()?.logEvent(withName: eventName, logLevel: MintLogLevel.init(10))
     }
     
     /// Log an user error. Event name should be an NSString.
@@ -50,9 +50,9 @@ class SplunkMintLogEvent: NSObject, TSLogEventInterface {
     ///   - eventName: An name for event
     ///   - error: Error generated from the event
     func logEvent(_ eventName: String, error: Error) {
-        let extraData = MintLimitedExtraData()
-        extraData.setValue("\((error as NSError).code)", forKey: "ErrorCode")
-        extraData.setValue(error.localizedDescription, forKey: "ErrorMessage")
-        Mint.sharedInstance()?.logEvent(withName: eventName, logLevel: MintLogLevel.init(60), extraData: extraData)
+//        let extraData = MintLimitedExtraData()
+//        extraData.setValue("\((error as NSError).code)", forKey: "ErrorCode")
+//        extraData.setValue(error.localizedDescription, forKey: "ErrorMessage")
+//        Mint.sharedInstance()?.logEvent(withName: eventName, logLevel: MintLogLevel.init(60), extraData: extraData)
     }
 }
