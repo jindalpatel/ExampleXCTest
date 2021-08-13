@@ -10,6 +10,5 @@ target 'TSLogEvent' do
 #  pod 'Firebase/Crashlytics', '~> 8.2.0'
 #  pod 'Firebase/Analytics', '~> 8.2.0'
 #  pod 'Dynatrace', '~> 8.217'
-  
-end
 
+end
