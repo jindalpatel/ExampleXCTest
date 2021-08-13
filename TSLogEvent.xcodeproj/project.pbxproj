@@ -47,6 +47,7 @@
 		682296A126C559D900D2AD60 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6822969F26C559D900D2AD60 /* SplunkMint.xcframework */; };
 		682296A226C559D900D2AD60 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6822969F26C559D900D2AD60 /* SplunkMint.xcframework */; platformFilter = ios; };
 		688B9C7026C632DE00FA3CF1 /* TSLogEvent-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */; platformFilter = ios; };
+		688B9C7126C6337B00FA3CF1 /* TSLogEvent-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */; };
 		D72678201DE36729007881FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D726781E1DE36729007881FC /* Main.storyboard */; };
 		D72678221DE36729007881FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72678211DE36729007881FC /* Assets.xcassets */; };
 		D72678251DE36729007881FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72678231DE36729007881FC /* LaunchScreen.storyboard */; };
@@ -355,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688B9C7126C6337B00FA3CF1 /* TSLogEvent-Bridging-Header.h in Sources */,
 				0A699DE826583C2D00BDE3F9 /* TSLogEventInterface.swift in Sources */,
 				0A7737D9265E9DB8004A8A86 /* Enum+Environment.swift in Sources */,
 				0A7737D2265E9B63004A8A86 /* SplunkMintLogEvent.swift in Sources */,
