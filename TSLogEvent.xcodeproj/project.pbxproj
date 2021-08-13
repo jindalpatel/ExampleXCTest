@@ -275,7 +275,6 @@
 				D79F04041DE36128002CFC9E /* Sources */,
 				D79F04051DE36128002CFC9E /* Frameworks */,
 				D79F04061DE36128002CFC9E /* CopyFiles */,
-				0A69A12E265BFE1200BDE3F9 /* Splunk */,
 			);
 			buildRules = (
 			);
@@ -349,27 +348,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0A69A12E265BFE1200BDE3F9 /* Splunk */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Splunk;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "SCRIPT=`/usr/bin/find \"${SRCROOT}\" -name splunkmint_postbuild_dsym_upload_script.sh | head -n 1`\n\n/bin/bash \"${SCRIPT}\" \"275b7da9\" \"2977fd4e446c61c0984a600\" -f\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D726780F1DE36728007881FC /* Sources */ = {
