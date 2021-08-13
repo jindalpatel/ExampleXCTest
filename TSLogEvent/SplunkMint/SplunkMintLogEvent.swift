@@ -16,6 +16,7 @@ class SplunkMintLogEvent: NSObject, TSLogEventInterface {
     
     /// Initialize another logging SDK.
     func initializeSDK() {
+        
         if let configuration = configuration {
             Mint.sharedInstance()?.disableCrashReporter()
             Mint.sharedInstance().initAndStartSession(withHECUrl: configuration.hecURL, token: configuration.token)
