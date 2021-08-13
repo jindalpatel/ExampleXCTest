@@ -197,7 +197,6 @@
 			isa = PBXGroup;
 			children = (
 				6822969F26C559D900D2AD60 /* SplunkMint.xcframework */,
-				6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */,
 				0A9B85A62475FB0300003CCC /* README.md */,
 				D79F040A1DE36128002CFC9E /* TSLogEvent */,
 				D72678141DE36729007881FC /* TSLogEventSample */,
@@ -220,6 +219,7 @@
 		D79F040A1DE36128002CFC9E /* TSLogEvent */ = {
 			isa = PBXGroup;
 			children = (
+				6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */,
 				0AACBC8426A6027E008009B3 /* TSLogEvent.swift */,
 				20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */,
 				0A699DE626583C2D00BDE3F9 /* TSLogEventInterface.swift */,

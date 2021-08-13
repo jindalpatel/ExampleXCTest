@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '12.0'
  # s.swift_version = '5.0'
 
- # s.static_framework = true
+  s.static_framework = true
 
   s.source_files = s.name + "/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
