@@ -20,6 +20,7 @@
 		688B9CD126C63D9800FA3CF1 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688B9CD026C63D9800FA3CF1 /* SplunkMint.xcframework */; platformFilter = ios; };
 		688B9CF826C6833E00FA3CF1 /* SplunkMint.h in Headers */ = {isa = PBXBuildFile; fileRef = 688B9CF726C6833E00FA3CF1 /* SplunkMint.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		688B9CFA26C6835200FA3CF1 /* SplunkMint.h in Headers */ = {isa = PBXBuildFile; fileRef = 688B9CF926C6835200FA3CF1 /* SplunkMint.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
+		688B9CFB26C6838D00FA3CF1 /* TSLogEvent-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -147,6 +148,7 @@
 			files = (
 				688B9CF826C6833E00FA3CF1 /* SplunkMint.h in Headers */,
 				688B9CFA26C6835200FA3CF1 /* SplunkMint.h in Headers */,
+				688B9CFB26C6838D00FA3CF1 /* TSLogEvent-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
