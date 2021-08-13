@@ -16,8 +16,7 @@
 		20F9BD2226A72C5600A33C1F /* TSLogEventConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */; platformFilter = ios; };
 		20F9BD4C26A746E100A33C1F /* Logger+Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */; platformFilter = ios; };
 		4596AF9D0B577800B8FD6EE9 /* libPods-TSLogEvent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB94C1F14C157B12E3A599 /* libPods-TSLogEvent.a */; platformFilter = ios; };
-		688B9CFB26C6838D00FA3CF1 /* TSLogEvent-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
-		688B9D0726C69E2000FA3CF1 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688B9D0626C69E2000FA3CF1 /* SplunkMint.xcframework */; platformFilter = ios; };
+		688B9D1326C6B45600FA3CF1 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,7 +43,8 @@
 		20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLogEventConstants.swift; sourceTree = "<group>"; };
 		20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Statistics.swift"; sourceTree = "<group>"; };
 		6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSLogEvent-Bridging-Header.h"; sourceTree = "<group>"; };
-		688B9D0626C69E2000FA3CF1 /* SplunkMint.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SplunkMint.xcframework; sourceTree = "<group>"; };
+		688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SplunkMint.xcframework; sourceTree = "<group>"; };
+		688B9D1526C6B6F800FA3CF1 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "TSLogEvent/SplunkMint.xcframework/ios-arm64_i386_x86_64-simulator/Headers/module.modulemap"; sourceTree = "<group>"; };
 		C3AB94C1F14C157B12E3A599 /* libPods-TSLogEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSLogEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA8D80AED9D12752F1A804B /* Pods-TSLogEvent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSLogEvent.release.xcconfig"; path = "Target Support Files/Pods-TSLogEvent/Pods-TSLogEvent.release.xcconfig"; sourceTree = "<group>"; };
 		D79F04081DE36128002CFC9E /* libTSLogEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSLogEvent.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				688B9D0726C69E2000FA3CF1 /* SplunkMint.xcframework in Frameworks */,
+				688B9D1326C6B45600FA3CF1 /* SplunkMint.xcframework in Frameworks */,
 				4596AF9D0B577800B8FD6EE9 /* libPods-TSLogEvent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +101,7 @@
 		D79F03FF1DE36128002CFC9E = {
 			isa = PBXGroup;
 			children = (
-				688B9D0626C69E2000FA3CF1 /* SplunkMint.xcframework */,
+				688B9D1526C6B6F800FA3CF1 /* module.modulemap */,
 				0A9B85A62475FB0300003CCC /* README.md */,
 				D79F040A1DE36128002CFC9E /* TSLogEvent */,
 				D79F04091DE36128002CFC9E /* Products */,
@@ -121,6 +121,7 @@
 		D79F040A1DE36128002CFC9E /* TSLogEvent */ = {
 			isa = PBXGroup;
 			children = (
+				688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */,
 				6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */,
 				0AACBC8426A6027E008009B3 /* TSLogEvent.swift */,
 				20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */,
@@ -139,7 +140,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				688B9CFB26C6838D00FA3CF1 /* TSLogEvent-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +375,7 @@
 					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
 					"$(PROJECT_DIR)",
 				);
+				HEADER_SEARCH_PATHS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,6 +416,7 @@
 					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
 					"$(PROJECT_DIR)",
 				);
+				HEADER_SEARCH_PATHS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

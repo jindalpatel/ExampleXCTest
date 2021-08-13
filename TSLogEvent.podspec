@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   #uncomment this line to use the SplunkMint.framework found locally in the project
-  s.vendored_frameworks = "SplunkMint.xcframework"
+  s.vendored_frameworks = "TSLogEvent/SplunkMint.xcframework"
 
   #uncomment this line to use SplunkMint 5.2.7 from CocoaPods
   #s.dependency 'SplunkMint', '5.2.7'
