@@ -11,10 +11,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		266AD6AE5C39116F5445CC80BFE1B793 /* libPods-TSLogEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TSLogEvent.a"; path = "libPods-TSLogEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		266AD6AE5C39116F5445CC80BFE1B793 /* libPods-TSLogEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSLogEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A65715019C7C073E9ED5FA3CAB8300 /* Pods-TSLogEvent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSLogEvent-dummy.m"; sourceTree = "<group>"; };
 		3A6D3FB2DD320B55B18B4D6394A2D8F5 /* Pods-TSLogEvent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSLogEvent.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CD514977C5EF7AEF11BE3EF567824492 /* Pods-TSLogEvent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSLogEvent-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF530C7854495DF37F2BE7743CA79200 /* Pods-TSLogEvent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSLogEvent.debug.xcconfig"; sourceTree = "<group>"; };
 		E9304F61BF8A65EF610DCBFA12074B71 /* Pods-TSLogEvent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSLogEvent-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -151,6 +151,7 @@
 			baseConfigurationReference = CF530C7854495DF37F2BE7743CA79200 /* Pods-TSLogEvent.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -300,6 +301,7 @@
 			baseConfigurationReference = 3A6D3FB2DD320B55B18B4D6394A2D8F5 /* Pods-TSLogEvent.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
