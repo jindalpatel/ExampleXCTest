@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E147A288845DFC2B9A0EB289AA530B77 /* Pods-TSLogEvent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A65715019C7C073E9ED5FA3CAB8300 /* Pods-TSLogEvent-dummy.m */; };
+		E147A288845DFC2B9A0EB289AA530B77 /* Pods-TSLogEvent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A65715019C7C073E9ED5FA3CAB8300 /* Pods-TSLogEvent-dummy.m */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,7 +151,7 @@
 			baseConfigurationReference = CF530C7854495DF37F2BE7743CA79200 /* Pods-TSLogEvent.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -301,7 +301,7 @@
 			baseConfigurationReference = 3A6D3FB2DD320B55B18B4D6394A2D8F5 /* Pods-TSLogEvent.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
