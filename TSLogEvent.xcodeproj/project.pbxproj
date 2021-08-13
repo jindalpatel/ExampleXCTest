@@ -385,7 +385,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jindalp/Documents/ExampleXCTest/TSLogEvent/TSLogEvent-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TSLogEvent/TSLogEvent-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_WORKSPACE = YES;
@@ -424,7 +424,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jindalp/Documents/ExampleXCTest/TSLogEvent/TSLogEvent-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TSLogEvent/TSLogEvent-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_WORKSPACE = YES;
 			};
