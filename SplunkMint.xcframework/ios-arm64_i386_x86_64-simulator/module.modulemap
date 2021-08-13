@@ -1,0 +1,5 @@
+framework module SplunkMint {
+    header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_i386_x86_64-simulator/Headers/SplunkMint.h"
+    
+    export *
+}
