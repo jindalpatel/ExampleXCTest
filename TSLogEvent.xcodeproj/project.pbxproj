@@ -18,8 +18,6 @@
 		4596AF9D0B577800B8FD6EE9 /* libPods-TSLogEvent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB94C1F14C157B12E3A599 /* libPods-TSLogEvent.a */; platformFilter = ios; };
 		688B9C7026C632DE00FA3CF1 /* TSLogEvent-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */; platformFilter = ios; };
 		688B9CD126C63D9800FA3CF1 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688B9CD026C63D9800FA3CF1 /* SplunkMint.xcframework */; platformFilter = ios; };
-		688B9CF826C6833E00FA3CF1 /* SplunkMint.h in Headers */ = {isa = PBXBuildFile; fileRef = 688B9CF726C6833E00FA3CF1 /* SplunkMint.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
-		688B9CFA26C6835200FA3CF1 /* SplunkMint.h in Headers */ = {isa = PBXBuildFile; fileRef = 688B9CF926C6835200FA3CF1 /* SplunkMint.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		688B9CFB26C6838D00FA3CF1 /* TSLogEvent-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -146,8 +144,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				688B9CF826C6833E00FA3CF1 /* SplunkMint.h in Headers */,
-				688B9CFA26C6835200FA3CF1 /* SplunkMint.h in Headers */,
 				688B9CFB26C6838D00FA3CF1 /* TSLogEvent-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +362,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DTX_ALLOW_ANY_CERT = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -405,7 +401,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DTX_ALLOW_ANY_CERT = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
