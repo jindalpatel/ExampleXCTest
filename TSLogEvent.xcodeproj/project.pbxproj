@@ -15,6 +15,7 @@
 		2019430026A6020200F0F40B /* TSLogHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201942FF26A6020200F0F40B /* TSLogHistory.swift */; platformFilter = ios; };
 		20F9BD2226A72C5600A33C1F /* TSLogEventConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */; platformFilter = ios; };
 		20F9BD4C26A746E100A33C1F /* Logger+Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */; platformFilter = ios; };
+		4596AF9D0B577800B8FD6EE9 /* libPods-TSLogEvent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB94C1F14C157B12E3A599 /* libPods-TSLogEvent.a */; };
 		688B9C7026C632DE00FA3CF1 /* TSLogEvent-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */; platformFilter = ios; };
 		688B9CD126C63D9800FA3CF1 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688B9CD026C63D9800FA3CF1 /* SplunkMint.xcframework */; };
 /* End PBXBuildFile section */
@@ -42,11 +43,14 @@
 		0A7737D7265E9DB8004A8A86 /* Enum+Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enum+Environment.swift"; sourceTree = "<group>"; };
 		0A9B85A62475FB0300003CCC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0AACBC8426A6027E008009B3 /* TSLogEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLogEvent.swift; sourceTree = "<group>"; };
+		1C27F9C8F32F4B607BCF9227 /* Pods-TSLogEvent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSLogEvent.debug.xcconfig"; path = "Target Support Files/Pods-TSLogEvent/Pods-TSLogEvent.debug.xcconfig"; sourceTree = "<group>"; };
 		201942FF26A6020200F0F40B /* TSLogHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLogHistory.swift; sourceTree = "<group>"; };
 		20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLogEventConstants.swift; sourceTree = "<group>"; };
 		20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Statistics.swift"; sourceTree = "<group>"; };
 		6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSLogEvent-Bridging-Header.h"; sourceTree = "<group>"; };
 		688B9CD026C63D9800FA3CF1 /* SplunkMint.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SplunkMint.xcframework; sourceTree = "<group>"; };
+		C3AB94C1F14C157B12E3A599 /* libPods-TSLogEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSLogEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA8D80AED9D12752F1A804B /* Pods-TSLogEvent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSLogEvent.release.xcconfig"; path = "Target Support Files/Pods-TSLogEvent/Pods-TSLogEvent.release.xcconfig"; sourceTree = "<group>"; };
 		D79F04081DE36128002CFC9E /* libTSLogEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSLogEvent.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				688B9CD126C63D9800FA3CF1 /* SplunkMint.xcframework in Frameworks */,
+				4596AF9D0B577800B8FD6EE9 /* libPods-TSLogEvent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +92,19 @@
 				093BEED526BDDAAA00FA6FC6 /* SystemConfiguration.framework */,
 				093BEED326BDDAA500FA6FC6 /* WebKit.framework */,
 				093BEECE26BDDA9300FA6FC6 /* CoreTelephony.framework */,
+				C3AB94C1F14C157B12E3A599 /* libPods-TSLogEvent.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CF9F50688D9C80040C064B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C27F9C8F32F4B607BCF9227 /* Pods-TSLogEvent.debug.xcconfig */,
+				CDA8D80AED9D12752F1A804B /* Pods-TSLogEvent.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		D79F03FF1DE36128002CFC9E = {
@@ -99,6 +115,7 @@
 				D79F040A1DE36128002CFC9E /* TSLogEvent */,
 				D79F04091DE36128002CFC9E /* Products */,
 				68D6E22CACDCA1FB5807D8D3 /* Frameworks */,
+				8CF9F50688D9C80040C064B4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D79F04111DE36128002CFC9E /* Build configuration list for PBXNativeTarget "TSLogEvent" */;
 			buildPhases = (
+				5CEFB9990357187FB0AEFA00 /* [CP] Check Pods Manifest.lock */,
 				D79F04041DE36128002CFC9E /* Sources */,
 				D79F04051DE36128002CFC9E /* Frameworks */,
 				D79F04061DE36128002CFC9E /* CopyFiles */,
@@ -176,6 +194,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CEFB9990357187FB0AEFA00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TSLogEvent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D79F04041DE36128002CFC9E /* Sources */ = {
@@ -306,6 +349,7 @@
 		};
 		D79F04121DE36128002CFC9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C27F9C8F32F4B607BCF9227 /* Pods-TSLogEvent.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -344,6 +388,7 @@
 		};
 		D79F04131DE36128002CFC9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA8D80AED9D12752F1A804B /* Pods-TSLogEvent.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;

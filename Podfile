@@ -11,12 +11,4 @@ target 'TSLogEvent' do
   pod 'Firebase/Analytics', '~> 8.2.0'
   pod 'Dynatrace', '~> 8.217'
   
-  target 'TSLogEventSample' do
-    inherit! :complete
-  end
-  
-  target 'TSLogEventSampleTests' do
-      inherit! :complete
-  end
-
 end

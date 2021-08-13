@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/jindalpatel/ExampleXCTest.git", :branch => "main" }
 
   s.platform     = :ios, '12.0'
- # s.swift_version = '5.0'
+  s.swift_version = '5.0'
 
   s.static_framework = true
 
