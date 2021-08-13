@@ -160,7 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				093BEED726BDDAB000FA6FC6 /* CoreLocation.framework */,
-				6822969F26C559D900D2AD60 /* SplunkMint.xcframework */,
 				093BEED526BDDAAA00FA6FC6 /* SystemConfiguration.framework */,
 				093BEED326BDDAA500FA6FC6 /* WebKit.framework */,
 				093BEECE26BDDA9300FA6FC6 /* CoreTelephony.framework */,
@@ -197,6 +196,7 @@
 		D79F03FF1DE36128002CFC9E = {
 			isa = PBXGroup;
 			children = (
+				6822969F26C559D900D2AD60 /* SplunkMint.xcframework */,
 				6822967326C5149000D2AD60 /* TSLogEvent-Bridging-Header.h */,
 				0A9B85A62475FB0300003CCC /* README.md */,
 				D79F040A1DE36128002CFC9E /* TSLogEvent */,

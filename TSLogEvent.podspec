@@ -20,13 +20,6 @@ Pod::Spec.new do |s|
   
   #uncomment this line to use the SplunkMint.framework found locally in the project
   s.vendored_frameworks = "SplunkMint.xcframework"
-  s.frameworks = [
-    "SystemConfiguration",
-    "CoreTelephony",
-    "WebKit",
-    "CoreLocation"
-  ]
-  s.libraries = "z"
 
   #uncomment this line to use SplunkMint 5.2.7 from CocoaPods
   #s.dependency 'SplunkMint', '5.2.7'
