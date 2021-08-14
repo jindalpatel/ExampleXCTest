@@ -22,6 +22,7 @@
 		68E8FCB326C8321000FDEA78 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E8FCB226C8321000FDEA78 /* CoreLocation.framework */; platformFilter = ios; };
 		68E8FCB526C8321600FDEA78 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E8FCB426C8321600FDEA78 /* CoreTelephony.framework */; platformFilter = ios; };
 		68E8FCB726C8321C00FDEA78 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E8FCB626C8321C00FDEA78 /* WebKit.framework */; platformFilter = ios; };
+		68E8FCBC26C8386D00FDEA78 /* SplunkMint.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				68E8FCBC26C8386D00FDEA78 /* SplunkMint.xcframework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,8 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				68E8FCA526C7E15700FDEA78 /* module.modulemap */,
-				0A9B85A62475FB0300003CCC /* README.md */,
 				688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */,
+				0A9B85A62475FB0300003CCC /* README.md */,
 				D79F040A1DE36128002CFC9E /* TSLogEvent */,
 				D79F04091DE36128002CFC9E /* Products */,
 				68D6E22CACDCA1FB5807D8D3 /* Frameworks */,
