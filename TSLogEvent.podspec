@@ -20,6 +20,14 @@ Pod::Spec.new do |s|
   
   #uncomment this line to use the SplunkMint.framework found locally in the project
   s.vendored_frameworks = "SplunkMint.xcframework"
+  s.frameworks = [
+    "SystemConfiguration",
+    "CoreTelephony",
+    "WebKit",
+    "CoreLocation"
+  ]
+  s.libraries = "z"
+
   #s.public_header_files = "module.modulemap"
   s.module_map = "module.modulemap"
   s.preserve_path = "module.modulemap"
