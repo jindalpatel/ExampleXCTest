@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
   
   #uncomment this line to use the SplunkMint.framework found locally in the project
   s.vendored_frameworks = "SplunkMint.xcframework"
-  s.public_header_files = s.name + "/**/*.{h,m,swift}"
+  #s.public_header_files = "module.modulemap"
   s.module_map = "module.modulemap"
   s.preserve_path = "module.modulemap"
-  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/MyFramework/source/**' }
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/MyFramework/source/**'}
+  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/TSLogEvent/**' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/TSLogEvent/**'}
 
   #uncomment this line to use SplunkMint 5.2.7 from CocoaPods
   #s.dependency 'SplunkMint', '5.2.7'
