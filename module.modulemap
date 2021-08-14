@@ -1,13 +1,15 @@
 framework module TSLogEvent {
 
      module SplunkMint {
-        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_armv7/Headers/SplunkMint.h"
-        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_armv7/Headers/Mint.h"
-        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_armv7/Headers/MintEnums.h"
-        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_armv7/Headers/MintWKWebView.h"
-        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_armv7/Headers/MintLimitedExtraData.h"
-        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_armv7/Headers/MintJavascript.h"
-        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_armv7/Headers/MintUtilities.h"
+        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_i386_x86_64-simulator/Headers/SplunkMint.h"
+        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_i386_x86_64-simulator/Headers/Mint.h"
+        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_i386_x86_64-simulator/Headers/MintEnums.h"
+        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_i386_x86_64-simulator/Headers/MintWKWebView.h"
+        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_i386_x86_64-simulator/Headers/MintLimitedExtraData.h"
+        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_i386_x86_64-simulator/Headers/MintJavascript.h"
+        header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_i386_x86_64-simulator/Headers/MintUtilities.h"
+
+        
         
         export *
     }
