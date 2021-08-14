@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   #s.public_header_files = "module.modulemap"
   s.module_map = "module.modulemap"
   s.preserve_path = "module.modulemap"
-  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/TSLogEvent/**' }
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/TSLogEvent/**'}
+  #s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/TSLogEvent/Framework/SplunkMint.xcframework/ios-arm64_armv7/Headers/**.h' }
+  #s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/TSLogEvent/Framework/SplunkMint.xcframework/**.h'}
 
   #uncomment this line to use SplunkMint 5.2.7 from CocoaPods
   #s.dependency 'SplunkMint', '5.2.7'
