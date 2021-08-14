@@ -18,6 +18,7 @@
 		4596AF9D0B577800B8FD6EE9 /* libPods-TSLogEvent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB94C1F14C157B12E3A599 /* libPods-TSLogEvent.a */; platformFilter = ios; };
 		688B9D1326C6B45600FA3CF1 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */; platformFilter = ios; };
 		68E8FCA626C7E15700FDEA78 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 68E8FCA526C7E15700FDEA78 /* module.modulemap */; };
+		68E8FCA726C7E79B00FDEA78 /* TSLogEvent.swift in Headers */ = {isa = PBXBuildFile; fileRef = 0AACBC8426A6027E008009B3 /* TSLogEvent.swift */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -139,6 +140,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E8FCA726C7E79B00FDEA78 /* TSLogEvent.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
