@@ -17,6 +17,7 @@
 		20F9BD4C26A746E100A33C1F /* Logger+Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */; platformFilter = ios; };
 		4596AF9D0B577800B8FD6EE9 /* libPods-TSLogEvent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB94C1F14C157B12E3A599 /* libPods-TSLogEvent.a */; platformFilter = ios; };
 		688B9D1326C6B45600FA3CF1 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */; platformFilter = ios; };
+		68E8FCA626C7E15700FDEA78 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 68E8FCA526C7E15700FDEA78 /* module.modulemap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLogEventConstants.swift; sourceTree = "<group>"; };
 		20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Statistics.swift"; sourceTree = "<group>"; };
 		688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SplunkMint.xcframework; sourceTree = "<group>"; };
+		68E8FCA526C7E15700FDEA78 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		C3AB94C1F14C157B12E3A599 /* libPods-TSLogEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSLogEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA8D80AED9D12752F1A804B /* Pods-TSLogEvent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSLogEvent.release.xcconfig"; path = "Target Support Files/Pods-TSLogEvent/Pods-TSLogEvent.release.xcconfig"; sourceTree = "<group>"; };
 		D79F04081DE36128002CFC9E /* libTSLogEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSLogEvent.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 		D79F03FF1DE36128002CFC9E = {
 			isa = PBXGroup;
 			children = (
+				68E8FCA526C7E15700FDEA78 /* module.modulemap */,
 				0A9B85A62475FB0300003CCC /* README.md */,
 				688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */,
 				D79F040A1DE36128002CFC9E /* TSLogEvent */,
@@ -231,6 +234,7 @@
 				0A7737D1265E9B63004A8A86 /* SplunkMintLogEvent.swift in Sources */,
 				0A699DE726583C2D00BDE3F9 /* TSLogEventInterface.swift in Sources */,
 				20F9BD4C26A746E100A33C1F /* Logger+Statistics.swift in Sources */,
+				68E8FCA626C7E15700FDEA78 /* module.modulemap in Sources */,
 				0A7737CA265E9B54004A8A86 /* SplunkMintConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
