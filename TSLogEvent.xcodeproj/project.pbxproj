@@ -17,7 +17,6 @@
 		20F9BD4C26A746E100A33C1F /* Logger+Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */; platformFilter = ios; };
 		4596AF9D0B577800B8FD6EE9 /* libPods-TSLogEvent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB94C1F14C157B12E3A599 /* libPods-TSLogEvent.a */; platformFilter = ios; };
 		688B9D1326C6B45600FA3CF1 /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */; platformFilter = ios; };
-		68E8FCA626C7E15700FDEA78 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 68E8FCA526C7E15700FDEA78 /* module.modulemap */; platformFilter = ios; };
 		68E8FCB126C8320900FDEA78 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E8FCB026C8320900FDEA78 /* SystemConfiguration.framework */; platformFilter = ios; };
 		68E8FCB326C8321000FDEA78 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E8FCB226C8321000FDEA78 /* CoreLocation.framework */; platformFilter = ios; };
 		68E8FCB526C8321600FDEA78 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E8FCB426C8321600FDEA78 /* CoreTelephony.framework */; platformFilter = ios; };
@@ -50,7 +49,6 @@
 		20F9BD2126A72C5600A33C1F /* TSLogEventConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLogEventConstants.swift; sourceTree = "<group>"; };
 		20F9BD4B26A746E100A33C1F /* Logger+Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Statistics.swift"; sourceTree = "<group>"; };
 		688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SplunkMint.xcframework; sourceTree = "<group>"; };
-		68E8FCA526C7E15700FDEA78 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		68E8FCB026C8320900FDEA78 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		68E8FCB226C8321000FDEA78 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		68E8FCB426C8321600FDEA78 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
@@ -98,6 +96,7 @@
 		68D6E22CACDCA1FB5807D8D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */,
 				68E8FCB626C8321C00FDEA78 /* WebKit.framework */,
 				68E8FCB426C8321600FDEA78 /* CoreTelephony.framework */,
 				68E8FCB226C8321000FDEA78 /* CoreLocation.framework */,
@@ -119,8 +118,6 @@
 		D79F03FF1DE36128002CFC9E = {
 			isa = PBXGroup;
 			children = (
-				68E8FCA526C7E15700FDEA78 /* module.modulemap */,
-				688B9D1226C6B45600FA3CF1 /* SplunkMint.xcframework */,
 				0A9B85A62475FB0300003CCC /* README.md */,
 				D79F040A1DE36128002CFC9E /* TSLogEvent */,
 				D79F04091DE36128002CFC9E /* Products */,
@@ -252,7 +249,6 @@
 				0A7737D1265E9B63004A8A86 /* SplunkMintLogEvent.swift in Sources */,
 				0A699DE726583C2D00BDE3F9 /* TSLogEventInterface.swift in Sources */,
 				20F9BD4C26A746E100A33C1F /* Logger+Statistics.swift in Sources */,
-				68E8FCA626C7E15700FDEA78 /* module.modulemap in Sources */,
 				0A7737CA265E9B54004A8A86 /* SplunkMintConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
