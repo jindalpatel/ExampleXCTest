@@ -1,0 +1,24 @@
+//
+//  module.modulemap
+//  TSLogEvent
+//
+//  Created by Jindal Patel on 15/08/21.
+//  Copyright © 2021 Title Source. All rights reserved.
+//
+
+#ifndef module_h
+#define module_h
+
+
+#endif /* module_h */
+
+
+framework module TSLogEvent {
+    
+    module SplunkMint {
+        umbrella header "SplunkMint.h"
+    }
+    
+    export *
+    module * { export * }
+}
