@@ -6,12 +6,6 @@
 //  Copyright © 2021 Title Source. All rights reserved.
 //
 
-#ifndef module_h
-#define module_h
-
-
-#endif /* module_h */
-
 
 framework module TSLogEvent {
     
